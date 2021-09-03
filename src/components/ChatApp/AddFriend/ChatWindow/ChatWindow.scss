@@ -1,0 +1,126 @@
+
+.friend-request {
+    width: 92%;
+    height: 100%;
+    margin: 0 auto;
+}                      
+.friend-request__title {
+    margin: 20px 0 20px 0;
+    font-size: 14px;
+}          
+.friend-request__list {
+
+}                  
+.friend-request__item {
+    height: 70px;
+    padding: 12px;
+    margin: 10px 0;
+    background-color: #F5F5F5;
+    display: flex;
+    align-items: center;
+    position: relative;
+}                         
+.friend-request__item-avatar {
+    height: 42px;
+    width: 42px;
+    
+}
+
+.friend-request__item-avatar img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.friend-request__item-name {
+    margin-left: 12px;
+    font-size: 16px;
+}
+
+.friend-request__item-button {
+    position: absolute;
+    display: flex;
+    right: 20px;
+    
+}
+
+.friend-request__item-button div{
+    height: 32px;
+    font-size: 14px;
+    margin-right: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all .2s ease;
+}
+
+.friend-request__item-button div:hover {
+    opacity: .8;
+}
+
+.friend-request__item-button-agree i{
+    height: 32px;
+    width: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+
+.friend-request__item-button-agree i, .friend-request__item-button-cancel i{
+    margin: 0 10px;
+    color:rgb(71, 187, 117);
+    font-size: 20px;
+}
+
+.friend-request__item-button-agree i:active {
+    color: #fff;
+    background-color: rgb(71, 187, 117);
+}
+
+.friend-request__item-button-agree:active {
+    transform: scale(1.1);
+}
+
+.friend-request__start {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.friend-request__start-image {
+
+}
+
+.friend-request__start-image img{
+    width: 350px;
+}
+
+.friend-request__start-describe {
+    margin: 20px 0;
+    font: 14px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.friend-request__start-button {
+    margin-bottom: 40px;
+    height: 20px;
+    padding: 6px 8px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .2s ease;
+}
+
+.friend-request__start-button:active {
+    transform: scale(1.1);
+}
